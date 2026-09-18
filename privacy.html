@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — VerseLoom</title>
+  <meta name="description" content="VerseLoom privacy policy. We collect no personal data. Everything stays on your device." />
+  <style>
+    :root {
+      --bg: #fafaf8;
+      --fg: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #5b7fa6;
+      --accent-light: #e8eff7;
+      --border: #e4e4e0;
+      --card: #ffffff;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111110;
+        --fg: #f0ede8;
+        --muted: #9a9893;
+        --accent: #7ba3ca;
+        --accent-light: #1a2535;
+        --border: #2a2a28;
+        --card: #1c1c1a;
+      }
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-logo {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--fg);
+      text-decoration: none;
+    }
+    nav a.back {
+      font-size: 0.9rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+    nav a.back:hover { color: var(--fg); }
+
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 64px 32px 100px;
+    }
+    .page-label {
+      display: inline-block;
+      background: var(--accent-light);
+      color: var(--accent);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 100px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 10px;
+    }
+    .last-updated {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 48px;
+    }
+    .summary-box {
+      background: var(--accent-light);
+      border-radius: 12px;
+      padding: 24px 28px;
+      margin-bottom: 48px;
+    }
+    .summary-box p {
+      font-size: 1rem;
+      color: var(--accent);
+      font-weight: 600;
+      line-height: 1.6;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+    p { font-size: 0.95rem; color: var(--muted); margin-bottom: 16px; }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    ul li {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 28px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--fg); }
+    .footer-links { display: flex; gap: 24px; }
+    @media (max-width: 600px) {
+      nav { padding: 16px 20px; }
+      .container { padding: 40px 20px 80px; }
+      footer { padding: 24px 20px; flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="/" class="nav-logo">VerseLoom</a>
+  <a href="index.html" class="back">← Back</a>
+</nav>
+
+<div class="container">
+  <span class="page-label">Legal</span>
+  <h1>Privacy Policy</h1>
+  <p class="last-updated">Last updated: September 17, 2026</p>
+
+  <div class="summary-box">
+    <p>Short version: VerseLoom collects no personal data, sends nothing to any server, and requires no account. Your verses and review history exist only on your device.</p>
+  </div>
+
+  <h2>1. Who we are</h2>
+  <p>VerseLoom is an iOS application developed by Chuck Silver. It is a free, open-source Scripture memorization app with no backend service and no commercial data processing.</p>
+
+  <h2>2. Data we collect</h2>
+  <p><strong>We collect nothing.</strong> VerseLoom does not collect, transmit, store, or process any personal information. Specifically:</p>
+  <ul>
+    <li>No name, email address, phone number, or account credentials</li>
+    <li>No device identifiers, advertising IDs, or IP addresses</li>
+    <li>No usage analytics or crash reporting sent to any external service</li>
+    <li>No location data</li>
+    <li>No contacts, photos, camera, or microphone access</li>
+  </ul>
+
+  <h2>3. Data stored on your device</h2>
+  <p>VerseLoom stores the following data locally on your iPhone using Apple's SwiftData framework:</p>
+  <ul>
+    <li>Verse references and text you enter or import</li>
+    <li>Your spaced-repetition review history (dates, ratings)</li>
+    <li>Scheduling state (ease factor, review interval) for each verse</li>
+  </ul>
+  <p>This data never leaves your device. It is not backed up to any VerseLoom-controlled server. It may be included in standard iOS device backups (iCloud Backup or local iTunes/Finder backup) that you control.</p>
+
+  <h2>4. Third-party services</h2>
+  <p>VerseLoom uses no third-party SDKs, analytics frameworks, advertising networks, or crash-reporting services. The app makes no network requests of any kind during normal operation.</p>
+
+  <h2>5. Notifications</h2>
+  <p>If you grant notification permission, VerseLoom schedules a daily local notification reminding you how many verses are due for review. This notification is generated entirely on-device by iOS and is never routed through any external server.</p>
+
+  <h2>6. Apple frameworks</h2>
+  <p>VerseLoom is built exclusively with Apple's standard frameworks (SwiftUI, SwiftData, UserNotifications). Apple may collect certain diagnostic and usage data from iOS in accordance with <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's own Privacy Policy</a>. This data collection is controlled by Apple and your iOS privacy settings, not by VerseLoom.</p>
+
+  <h2>7. Children's privacy</h2>
+  <p>VerseLoom does not collect any personal data from anyone, including children under 13. Because the app collects no data, it is safe for use by children under parental supervision.</p>
+
+  <h2>8. Changes to this policy</h2>
+  <p>If this policy changes materially, the updated version will be posted at this URL and the "Last updated" date above will be revised. Because the app collects no data, changes are unlikely.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions? Open an issue on <a href="https://github.com/chuckdevcis/VerseLoom" target="_blank" rel="noopener">GitHub</a> or email <a href="mailto:cisilva2510@gmail.com">cisilva2510@gmail.com</a>.</p>
+
+  <hr />
+  <p style="font-size:0.85rem;">This privacy policy applies to the VerseLoom iOS application. It does not apply to any other websites or services not operated by VerseLoom.</p>
+</div>
+
+<footer>
+  <span>© 2026 VerseLoom</span>
+  <div class="footer-links">
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="terms.html">Terms of Use</a>
+    <a href="index.html">Home</a>
+  </div>
+</footer>
+
+</body>
+</html>
